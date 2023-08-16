@@ -53,28 +53,42 @@ hr {
   line-height: 27px;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   font-family: var(--heading-font-family);
   line-height: 80px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
 
-.about-section p {
+.content-container p {
   font-family: var(--default-font-family);
   font-weight: 400px;
 }
 
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
 
-.about-section-content {
+.content {
   margin: 30px;
+}
+
+.content h3 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.content p {
+  font-family: var(--default-font-family);
+  font-size: 14px;
+  line-height: 21px;
+  opacity: 0.6;
 }
 
 h2 {
@@ -136,15 +150,13 @@ p {
     margin-bottom: 30px;
   }
 
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 35px 12px;
   }
 
-  .about-section h1{
+  .content-container h1 {
     font-size: 55px;
     line-height: 1.1;
-  
   }
-
 }
