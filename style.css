@@ -70,7 +70,7 @@ hr {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .content {
@@ -157,7 +157,7 @@ footer .contact-box {
   border-radius: 10px;
 }
 
-footer h4 {
+footer h3 {
   font-size: 48px;
   font-family: var(--heading-font-family);
 }

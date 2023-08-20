@@ -28,6 +28,32 @@
     <title>Document</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Patricia logo"
+          />
+          <img src="images/small-logo.jpg" class="logo d-block d-md-none" />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About-page">About</a>
+          </li>
+          <li class="active">
+            <a href="/work.html" title="Patricia's work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Patricia">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Take a look at what I've been working on!</h1>
@@ -72,6 +98,55 @@
           </div>
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p>Let's work together!</p>
+          </div>
+          <div>
+            <a
+              href="mailto:patricia.pereira@gmail.com"
+              class="btn btn-branding mt-3"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <a
+          href="mailto:patricia.pereira@gmail.com"
+          class="email-link"
+          title="Email Patricia"
+          >patricia.pereira@gmail.com</a
+        >
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://instagram.com/patricia"
+            target="_blank"
+            title="Patricia's Instagram profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/patricia"
+            title="Patricia's GitHub profile"
+            target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://facebook.com/patricia"
+            title="Patricia's Facebook profile"
+            target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+        <p class="text-center">
+          This project was coded by Roxana Stoian and it is
+          <a href="https://github.com/roxanastoian/portfolio-project-1"
+            >open-sourced.</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
